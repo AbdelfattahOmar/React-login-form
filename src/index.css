@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -5,6 +6,7 @@
 body {
   margin: 0;
   background-color: #493333;
+  font-family: Roboto, sans-serif;
 }
 
 .app {
@@ -16,9 +18,13 @@ body {
   margin: 3rem auto;
 }
 
+h1 {
+  color: #240370;
+  margin-left: 125px;
+  font-size: 50px;
+}
 .form-control {
   margin-bottom: 1rem;
-
 }
 
 .form-control input,
@@ -97,7 +103,6 @@ button:disabled:active {
   border: 1px solid #b40e0e;
   background-color: #fddddd;
 }
-
 
 .error-text {
   color: #b40e0e;

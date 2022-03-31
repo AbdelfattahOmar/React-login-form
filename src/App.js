@@ -1,10 +1,10 @@
 
-import BasicForm from './components/BasicForm';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="app">
-      <BasicForm />
+      <Form />
     </div>
   );
 }

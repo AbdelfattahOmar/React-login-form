@@ -57,6 +57,7 @@ const BasicForm = (props) => {
 
   return (
     <form onSubmit={submitHandler}>
+      <h1>Login</h1>
       <div className='control-group'>
         <div className={userNameClasses}>
           <label>Username</label>
